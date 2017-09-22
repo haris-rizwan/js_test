@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My TO DO List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="todo.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>My TO DO List </h1>
+        <div class="input-group input-group-lg">
+    <input id='myInput'type="text" class="form-control"  aria-label="Username" aria-describedby="sizing-addon1" placeholder="TO DO">
+  </div>
+  <input type="button"  class='btn btn-info btn-lg btn-block' name="" value="Save To List" onclick="newToDO()">
+  <div class="row">
+  <div class="col-lg-6">
+    <div class="input-group">
+      <span class="input-group-addon">
+        <input type="radio" name='level' aria-label="Checkbox for following text input" value="high"><span class="btn btn-danger">HIGH PIRORITY</span>
+      </span>
+      <span class="input-group-addon">
+        <input type="radio" name='level' aria-label="Checkbox for following text input" value="medium"><span class="btn btn-warning">MEDIUM PIRORITY</span>
+      </span>
+      <span class="input-group-addon">
+        <input type="radio" name='level' aria-label="Checkbox for following text input" value="low"><span class="btn btn-primary">LOW PIRORITY</span>
+      </span>
+    </div>
+  </div>
+</div>
+    </div>
+  </div>
+      </div>
+    </div>
+    <div class="container">
+      <div id='list' class="jumbotron">
+        <h2 class="text-center" >Pending</h2>
+        <ul id='myUl'>
+
+        </ul>
+
+      </div>
+
+    </div>
+    
+
+  </body>
+  <script type="text/javascript" src="todo.js">
+
+  </script>
+</html>
