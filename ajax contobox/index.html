@@ -11,9 +11,10 @@
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 
-  </script>
+  <link rel="stylesheet" href="request.css">
 
   </head>
   <body>
@@ -34,13 +35,84 @@
             </ul>
 
           </div>
-          <input type="text" name="" value="">
+          <input type="text" name="" value="" id="add-id">
           <button class="btn btn-primary" type="button" name="button" onclick="get_contobox_data()"> GO Get Results</button>
         </div>
 
     </div>
 </div>
 
+<div id="wait" style="display:none;width:200px;height:200px;position:absolute;top:50%;left:50%;padding:2px;"><img src='demo_wait.gif' width="150" height="150" /><br></div>
+
+<div class="container">
+  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col" class="p-3 mb-2 bg-primary text-white">PRE EXPANDABLE DETAILS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">SIZE IN KB</th>
+      <td>Mark</td>
+    </tr>
+    <tr>
+      <th scope="row"># OF HTTP REQUESTS</th>
+      <td>Jacob</td>
+    </tr>
+    <tr>
+      <th scope="row"># OF HTTPS REQUESTS</th>
+      <td>Larry</td>
+    </tr>
+    <tr>
+      <th scope="row"># OF TOTAL REQUESTS</th>
+      <td>Larry</td>
+    </tr>
+    <thead>
+      <tr>
+        <th scope="col" class="p-3 mb-2 bg-secondary text-white">EXPANDABLE DETAILS</th>
+      </tr>
+    </thead>
+    <tr>
+      <th scope="row">SIZE IN KB</th>
+      <td>Mark</td>
+    </tr>
+    <tr>
+      <th scope="row"># OF HTTP REQUESTS</th>
+      <td>Jacob</td>
+    </tr>
+    <tr>
+      <th scope="row"># OF HTTPS REQUESTS</th>
+      <td>Larry</td>
+    </tr>
+    <tr>
+      <th scope="row"># OF TOTAL REQUESTS</th>
+      <td>Larry</td>
+    </tr>
+    <thead>
+      <tr>
+        <th scope="col" class="p-3 mb-2 bg-info text-white">COMBINE DETAILS</th>
+      </tr>
+    </thead>
+    <tr>
+      <th scope="row">SIZE IN KB</th>
+      <td>Mark</td>
+    </tr>
+    <tr>
+      <th scope="row"># OF HTTP REQUESTS</th>
+      <td>Jacob</td>
+    </tr>
+    <tr>
+      <th scope="row"># OF HTTPS REQUESTS</th>
+      <td>Larry</td>
+    </tr>
+    <tr>
+      <th scope="row"># OF TOTAL REQUESTS</th>
+      <td>Larry</td>
+    </tr>
+  </tbody>
+</table>
+</div>
   </body>
   <script src="request.js" type="text/javascript">
 </script>
