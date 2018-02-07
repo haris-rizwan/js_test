@@ -1,0 +1,1702 @@
+[
+  {
+    "pageref": "page_1",
+    "startedDateTime": "2018-02-07T04:16:11.462Z",
+    "time": 328.4609999973327,
+    "request": {
+      "method": "GET",
+      "url": "https://google.com/",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": ":path",
+          "value": "/"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "upgrade-insecure-requests",
+          "value": "1"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": ":authority",
+          "value": "google.com"
+        },
+        {
+          "name": ":scheme",
+          "value": "https"
+        },
+        {
+          "name": ":method",
+          "value": "GET"
+        }
+      ],
+      "queryString": [],
+      "headersSize": -1,
+      "bodySize": -1
+    },
+    "response": {
+      "status": 302,
+      "statusText": "",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": "date",
+          "value": "Wed, 07 Feb 2018 04:16:11 GMT"
+        },
+        {
+          "name": "referrer-policy",
+          "value": "no-referrer"
+        },
+        {
+          "name": "status",
+          "value": "302"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "location",
+          "value": "https://www.google.ca/?gfe_rd=cr&dcr=0&ei=i316WpapDqGFX8_gregI"
+        },
+        {
+          "name": "cache-control",
+          "value": "private"
+        },
+        {
+          "name": "alt-svc",
+          "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+        },
+        {
+          "name": "content-length",
+          "value": "267"
+        }
+      ],
+      "redirectURL": "https://www.google.ca/?gfe_rd=cr&dcr=0&ei=i316WpapDqGFX8_gregI",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 269,
+      "content": {
+        "size": 0,
+        "mimeType": "text/html"
+      }
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 1.74300000071526,
+      "dns": 0.93999999808147,
+      "connect": 92.11900000809698,
+      "send": 0.20300000323909728,
+      "wait": 14.0250000113152,
+      "receive": 219.43099997588467,
+      "ssl": 68.1599999952596
+    },
+    "serverIPAddress": "172.217.13.142",
+    "connection": "9",
+    "_initiator": {
+      "type": "other"
+    },
+    "_priority": "VeryHigh"
+  },
+  {
+    "pageref": "page_1",
+    "startedDateTime": "2018-02-07T04:16:11.464Z",
+    "time": 312.5770000042394,
+    "request": {
+      "method": "GET",
+      "url": "https://www.google.ca/?gfe_rd=cr&dcr=0&ei=i316WpapDqGFX8_gregI",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": ":path",
+          "value": "/?gfe_rd=cr&dcr=0&ei=i316WpapDqGFX8_gregI"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "upgrade-insecure-requests",
+          "value": "1"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+        },
+        {
+          "name": ":authority",
+          "value": "www.google.ca"
+        },
+        {
+          "name": ":scheme",
+          "value": "https"
+        },
+        {
+          "name": ":method",
+          "value": "GET"
+        }
+      ],
+      "queryString": [
+        {
+          "name": "gfe_rd",
+          "value": "cr"
+        },
+        {
+          "name": "dcr",
+          "value": "0"
+        },
+        {
+          "name": "ei",
+          "value": "i316WpapDqGFX8_gregI"
+        }
+      ],
+      "headersSize": -1,
+      "bodySize": -1
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": "date",
+          "value": "Wed, 07 Feb 2018 04:16:11 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "server",
+          "value": "gws"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "p3p",
+          "value": "CP=\"This is not a P3P policy! See g.co/p3phelp for more info.\""
+        },
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "set-cookie",
+          "value": "1P_JAR=2018-02-07-04; expires=Fri, 09-Mar-2018 04:16:11 GMT; path=/; domain=.google.ca\nNID=123=FR5H5mLzgje3D0OeiMsXBBDHKQ8JRAjxpKKodc5-eopJf337d2npDfpPrHtb_Nd_03G7oWsFd38NPnay_Pv1KK_sdhQ_In6L_hkgI0PwKeDtz2MDY2VHjCEcV3YyiibO; expires=Thu, 09-Aug-2018 04:16:11 GMT; path=/; domain=.google.ca; HttpOnly"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=0"
+        },
+        {
+          "name": "strict-transport-security",
+          "value": "max-age=3600"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "alt-svc",
+          "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "expires",
+          "value": "-1"
+        }
+      ],
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 71550,
+      "content": {
+        "size": 217589,
+        "mimeType": "text/html"
+      }
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 0.162000011187047,
+      "dns": 0.933000002987683,
+      "connect": 103.68000000016727,
+      "send": 0.0920000020419991,
+      "wait": 109.538999997312,
+      "receive": 98.17099999054338,
+      "ssl": 56.20399999315809
+    },
+    "serverIPAddress": "74.125.201.94",
+    "connection": "18",
+    "_initiator": {
+      "type": "other"
+    },
+    "_priority": "VeryHigh"
+  },
+  {
+    "pageref": "page_1",
+    "startedDateTime": "2018-02-07T04:16:11.510Z",
+    "time": 110.37599999690428,
+    "request": {
+      "method": "GET",
+      "url": "https://ssl.gstatic.com/gb/images/i2_2ec824b0.png",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": ":path",
+          "value": "/gb/images/i2_2ec824b0.png"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "referer",
+          "value": "https://www.google.ca/"
+        },
+        {
+          "name": ":authority",
+          "value": "ssl.gstatic.com"
+        },
+        {
+          "name": ":scheme",
+          "value": "https"
+        },
+        {
+          "name": ":method",
+          "value": "GET"
+        }
+      ],
+      "queryString": [],
+      "headersSize": -1,
+      "bodySize": -1
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": "date",
+          "value": "Wed, 31 Jan 2018 09:14:34 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "last-modified",
+          "value": "Mon, 12 Dec 2016 14:45:00 GMT"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "age",
+          "value": "586897"
+        },
+        {
+          "name": "vary",
+          "value": "Origin"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "alt-svc",
+          "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+        },
+        {
+          "name": "content-length",
+          "value": "24211"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 31 Jan 2019 09:14:34 GMT"
+        }
+      ],
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 24543,
+      "content": {
+        "size": 24211,
+        "mimeType": "image/png"
+      }
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 0.16600001254119,
+      "dns": 0.609999988228082,
+      "connect": 64.97100001433863,
+      "send": 0.1749999937601956,
+      "wait": 22.043000004487098,
+      "receive": 22.41099998354909,
+      "ssl": 45.771999983117
+    },
+    "serverIPAddress": "172.217.13.99",
+    "connection": "27",
+    "_initiator": {
+      "type": "parser",
+      "url": "https://www.google.ca/?gfe_rd=cr&dcr=0&ei=i316WpapDqGFX8_gregI",
+      "lineNumber": 53
+    },
+    "_priority": "Low"
+  },
+  {
+    "pageref": "page_1",
+    "startedDateTime": "2018-02-07T04:16:11.531Z",
+    "time": 87.12100001866929,
+    "request": {
+      "method": "GET",
+      "url": "https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": ":path",
+          "value": "/images/branding/googlelogo/2x/googlelogo_color_120x44dp.png"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "referer",
+          "value": "https://www.google.ca/"
+        },
+        {
+          "name": ":authority",
+          "value": "www.google.ca"
+        },
+        {
+          "name": "cookie",
+          "value": "1P_JAR=2018-02-07-04; NID=123=FR5H5mLzgje3D0OeiMsXBBDHKQ8JRAjxpKKodc5-eopJf337d2npDfpPrHtb_Nd_03G7oWsFd38NPnay_Pv1KK_sdhQ_In6L_hkgI0PwKeDtz2MDY2VHjCEcV3YyiibO"
+        },
+        {
+          "name": ":scheme",
+          "value": "https"
+        },
+        {
+          "name": ":method",
+          "value": "GET"
+        }
+      ],
+      "queryString": [],
+      "headersSize": -1,
+      "bodySize": -1
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": "date",
+          "value": "Wed, 07 Feb 2018 04:16:11 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 08 Dec 2016 01:00:57 GMT"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=31536000"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "alt-svc",
+          "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+        },
+        {
+          "name": "content-length",
+          "value": "5087"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 07 Feb 2018 04:16:11 GMT"
+        }
+      ],
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 5157,
+      "content": {
+        "size": 5087,
+        "mimeType": "image/png"
+      }
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 0.479000009363517,
+      "dns": -1,
+      "connect": -1,
+      "send": 0.586000009207053,
+      "wait": 56.35400000028313,
+      "receive": 29.70199999981559,
+      "ssl": -1
+    },
+    "serverIPAddress": "74.125.201.94",
+    "connection": "18",
+    "_initiator": {
+      "type": "parser",
+      "url": "https://www.google.ca/?gfe_rd=cr&dcr=0&ei=i316WpapDqGFX8_gregI",
+      "lineNumber": 53
+    },
+    "_priority": "Low"
+  },
+  {
+    "pageref": "page_1",
+    "startedDateTime": "2018-02-07T04:16:11.531Z",
+    "time": 57.3679999797605,
+    "request": {
+      "method": "GET",
+      "url": "https://www.google.ca/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": ":path",
+          "value": "/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "referer",
+          "value": "https://www.google.ca/"
+        },
+        {
+          "name": ":authority",
+          "value": "www.google.ca"
+        },
+        {
+          "name": "cookie",
+          "value": "1P_JAR=2018-02-07-04; NID=123=FR5H5mLzgje3D0OeiMsXBBDHKQ8JRAjxpKKodc5-eopJf337d2npDfpPrHtb_Nd_03G7oWsFd38NPnay_Pv1KK_sdhQ_In6L_hkgI0PwKeDtz2MDY2VHjCEcV3YyiibO"
+        },
+        {
+          "name": ":scheme",
+          "value": "https"
+        },
+        {
+          "name": ":method",
+          "value": "GET"
+        }
+      ],
+      "queryString": [],
+      "headersSize": -1,
+      "bodySize": -1
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": "date",
+          "value": "Wed, 07 Feb 2018 04:16:11 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 08 Dec 2016 01:00:57 GMT"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=31536000"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "alt-svc",
+          "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+        },
+        {
+          "name": "content-length",
+          "value": "13504"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 07 Feb 2018 04:16:11 GMT"
+        }
+      ],
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 13680,
+      "content": {
+        "size": 13504,
+        "mimeType": "image/png"
+      }
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 0.463000003946945,
+      "dns": -1,
+      "connect": -1,
+      "send": 0.31499998294748394,
+      "wait": 47.46800000430087,
+      "receive": 9.1219999885652,
+      "ssl": -1
+    },
+    "serverIPAddress": "74.125.201.94",
+    "connection": "18",
+    "_initiator": {
+      "type": "parser",
+      "url": "https://www.google.ca/?gfe_rd=cr&dcr=0&ei=i316WpapDqGFX8_gregI",
+      "lineNumber": 53
+    },
+    "_priority": "Low"
+  },
+  {
+    "pageref": "page_1",
+    "startedDateTime": "2018-02-07T04:16:11.532Z",
+    "time": 59.79800000204705,
+    "request": {
+      "method": "GET",
+      "url": "https://www.google.ca/images/hpp/shield_security_checkup_green_2x_web_96dp.png",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": ":path",
+          "value": "/images/hpp/shield_security_checkup_green_2x_web_96dp.png"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "referer",
+          "value": "https://www.google.ca/"
+        },
+        {
+          "name": ":authority",
+          "value": "www.google.ca"
+        },
+        {
+          "name": "cookie",
+          "value": "1P_JAR=2018-02-07-04; NID=123=FR5H5mLzgje3D0OeiMsXBBDHKQ8JRAjxpKKodc5-eopJf337d2npDfpPrHtb_Nd_03G7oWsFd38NPnay_Pv1KK_sdhQ_In6L_hkgI0PwKeDtz2MDY2VHjCEcV3YyiibO"
+        },
+        {
+          "name": ":scheme",
+          "value": "https"
+        },
+        {
+          "name": ":method",
+          "value": "GET"
+        }
+      ],
+      "queryString": [],
+      "headersSize": -1,
+      "bodySize": -1
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": "date",
+          "value": "Wed, 07 Feb 2018 04:16:11 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 08 Dec 2016 01:00:57 GMT"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "cache-control",
+          "value": "private, max-age=31536000"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "alt-svc",
+          "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+        },
+        {
+          "name": "content-length",
+          "value": "3700"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "expires",
+          "value": "Wed, 07 Feb 2018 04:16:11 GMT"
+        }
+      ],
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 3770,
+      "content": {
+        "size": 3700,
+        "mimeType": "image/png"
+      }
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 0.433000008342788,
+      "dns": -1,
+      "connect": -1,
+      "send": 0.216999993426725,
+      "wait": 53.66199999116359,
+      "receive": 5.486000009113944,
+      "ssl": -1
+    },
+    "serverIPAddress": "74.125.201.94",
+    "connection": "18",
+    "_initiator": {
+      "type": "parser",
+      "url": "https://www.google.ca/?gfe_rd=cr&dcr=0&ei=i316WpapDqGFX8_gregI",
+      "lineNumber": 53
+    },
+    "_priority": "Low"
+  },
+  {
+    "pageref": "page_1",
+    "startedDateTime": "2018-02-07T04:16:11.548Z",
+    "time": 220.12499999254942,
+    "request": {
+      "method": "GET",
+      "url": "https://www.google.ca/xjs/_/js/k=xjs.s.en.0nYfitDdIYE.O/m=sx,sb,cdos,cr,elog,hsm,jsa,r,d,csi/am=wCL0eMEDkP8fAooEKwgsSBphGBo/rt=j/d=1/t=zcms/rs=ACT90oGDmv-KwvP-YRsHjtrjND83pMTOgQ",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": ":path",
+          "value": "/xjs/_/js/k=xjs.s.en.0nYfitDdIYE.O/m=sx,sb,cdos,cr,elog,hsm,jsa,r,d,csi/am=wCL0eMEDkP8fAooEKwgsSBphGBo/rt=j/d=1/t=zcms/rs=ACT90oGDmv-KwvP-YRsHjtrjND83pMTOgQ"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "*/*"
+        },
+        {
+          "name": "referer",
+          "value": "https://www.google.ca/"
+        },
+        {
+          "name": ":authority",
+          "value": "www.google.ca"
+        },
+        {
+          "name": "cookie",
+          "value": "1P_JAR=2018-02-07-04; NID=123=FR5H5mLzgje3D0OeiMsXBBDHKQ8JRAjxpKKodc5-eopJf337d2npDfpPrHtb_Nd_03G7oWsFd38NPnay_Pv1KK_sdhQ_In6L_hkgI0PwKeDtz2MDY2VHjCEcV3YyiibO"
+        },
+        {
+          "name": ":scheme",
+          "value": "https"
+        },
+        {
+          "name": ":method",
+          "value": "GET"
+        }
+      ],
+      "queryString": [],
+      "headersSize": -1,
+      "bodySize": -1
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": "date",
+          "value": "Wed, 07 Feb 2018 04:16:11 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 07 Feb 2018 01:26:13 GMT"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "alt-svc",
+          "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+        },
+        {
+          "name": "content-length",
+          "value": "148995"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 07 Feb 2019 04:16:11 GMT"
+        }
+      ],
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 149250,
+      "content": {
+        "size": 431667,
+        "mimeType": "text/javascript"
+      }
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 0.20300000323914,
+      "dns": -1,
+      "connect": -1,
+      "send": 0.180000002728775,
+      "wait": 149.05799998086908,
+      "receive": 70.68400000571242,
+      "ssl": -1
+    },
+    "serverIPAddress": "74.125.201.94",
+    "connection": "18",
+    "_initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "",
+            "scriptId": "22",
+            "url": "https://www.google.ca/?gfe_rd=cr&dcr=0&ei=i316WpapDqGFX8_gregI",
+            "lineNumber": 53,
+            "columnNumber": 12989
+          }
+        ]
+      }
+    },
+    "_priority": "Low"
+  },
+  {
+    "pageref": "page_1",
+    "startedDateTime": "2018-02-07T04:16:11.673Z",
+    "time": 93.98599999258295,
+    "request": {
+      "method": "POST",
+      "url": "https://www.google.ca/gen_204?s=webaft&atyp=csi&ei=i316Wu6SF4S8sAWYlxY&rt=wsrt.339,aft.199,prt.109",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": ":path",
+          "value": "/gen_204?s=webaft&atyp=csi&ei=i316Wu6SF4S8sAWYlxY&rt=wsrt.339,aft.199,prt.109"
+        },
+        {
+          "name": "cookie",
+          "value": "1P_JAR=2018-02-07-04; NID=123=FR5H5mLzgje3D0OeiMsXBBDHKQ8JRAjxpKKodc5-eopJf337d2npDfpPrHtb_Nd_03G7oWsFd38NPnay_Pv1KK_sdhQ_In6L_hkgI0PwKeDtz2MDY2VHjCEcV3YyiibO"
+        },
+        {
+          "name": "origin",
+          "value": "https://www.google.ca"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+        },
+        {
+          "name": "content-type",
+          "value": "text/plain;charset=UTF-8"
+        },
+        {
+          "name": "accept",
+          "value": "*/*"
+        },
+        {
+          "name": "cache-control",
+          "value": "max-age=0"
+        },
+        {
+          "name": ":authority",
+          "value": "www.google.ca"
+        },
+        {
+          "name": "referer",
+          "value": "https://www.google.ca/"
+        },
+        {
+          "name": ":scheme",
+          "value": "https"
+        },
+        {
+          "name": "content-length",
+          "value": "0"
+        },
+        {
+          "name": ":method",
+          "value": "POST"
+        }
+      ],
+      "queryString": [
+        {
+          "name": "s",
+          "value": "webaft"
+        },
+        {
+          "name": "atyp",
+          "value": "csi"
+        },
+        {
+          "name": "ei",
+          "value": "i316Wu6SF4S8sAWYlxY"
+        },
+        {
+          "name": "rt",
+          "value": "wsrt.339,aft.199,prt.109"
+        }
+      ],
+      "headersSize": -1,
+      "bodySize": 0
+    },
+    "response": {
+      "status": 204,
+      "statusText": "",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": "date",
+          "value": "Wed, 07 Feb 2018 04:16:11 GMT"
+        },
+        {
+          "name": "server",
+          "value": "gws"
+        },
+        {
+          "name": "x-frame-options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "name": "content-type",
+          "value": "text/html; charset=UTF-8"
+        },
+        {
+          "name": "status",
+          "value": "204"
+        },
+        {
+          "name": "alt-svc",
+          "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+        },
+        {
+          "name": "content-length",
+          "value": "0"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        }
+      ],
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 46,
+      "content": {
+        "size": 0,
+        "mimeType": "text/html"
+      }
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 0.203999981749803,
+      "dns": -1,
+      "connect": -1,
+      "send": 0.20800001220777603,
+      "wait": 92.50599998631512,
+      "receive": 1.0680000123102502,
+      "ssl": -1
+    },
+    "serverIPAddress": "74.125.201.94",
+    "connection": "18",
+    "_initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "H",
+            "scriptId": "26",
+            "url": "https://www.google.ca/?gfe_rd=cr&dcr=0&ei=i316WpapDqGFX8_gregI",
+            "lineNumber": 353,
+            "columnNumber": 145
+          }
+        ]
+      }
+    },
+    "_priority": "VeryLow"
+  },
+  {
+    "pageref": "page_1",
+    "startedDateTime": "2018-02-07T04:16:11.828Z",
+    "time": 53.97599999560043,
+    "request": {
+      "method": "GET",
+      "url": "https://www.google.ca/xjs/_/js/k=xjs.s.en.0nYfitDdIYE.O/m=d3l,udlg,aa,abd,async,dvl,foot,fpe,ipv6,lu,m,mu,sf,sonic,spch/am=wCL0eMEDkP8fAooEKwgsSBphGBo/exm=sx,sb,cdos,cr,elog,hsm,jsa,r,d,csi/rt=j/d=1/ed=1/t=zcms/rs=ACT90oGDmv-KwvP-YRsHjtrjND83pMTOgQ?xjs=s1",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": ":path",
+          "value": "/xjs/_/js/k=xjs.s.en.0nYfitDdIYE.O/m=d3l,udlg,aa,abd,async,dvl,foot,fpe,ipv6,lu,m,mu,sf,sonic,spch/am=wCL0eMEDkP8fAooEKwgsSBphGBo/exm=sx,sb,cdos,cr,elog,hsm,jsa,r,d,csi/rt=j/d=1/ed=1/t=zcms/rs=ACT90oGDmv-KwvP-YRsHjtrjND83pMTOgQ?xjs=s1"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "*/*"
+        },
+        {
+          "name": "referer",
+          "value": "https://www.google.ca/"
+        },
+        {
+          "name": ":authority",
+          "value": "www.google.ca"
+        },
+        {
+          "name": "cookie",
+          "value": "1P_JAR=2018-02-07-04; NID=123=FR5H5mLzgje3D0OeiMsXBBDHKQ8JRAjxpKKodc5-eopJf337d2npDfpPrHtb_Nd_03G7oWsFd38NPnay_Pv1KK_sdhQ_In6L_hkgI0PwKeDtz2MDY2VHjCEcV3YyiibO"
+        },
+        {
+          "name": ":scheme",
+          "value": "https"
+        },
+        {
+          "name": ":method",
+          "value": "GET"
+        }
+      ],
+      "queryString": [
+        {
+          "name": "xjs",
+          "value": "s1"
+        }
+      ],
+      "headersSize": -1,
+      "bodySize": -1
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": "date",
+          "value": "Wed, 07 Feb 2018 04:16:11 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "last-modified",
+          "value": "Wed, 07 Feb 2018 01:26:13 GMT"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "alt-svc",
+          "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+        },
+        {
+          "name": "content-length",
+          "value": "29235"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 07 Feb 2019 04:16:11 GMT"
+        }
+      ],
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 29317,
+      "content": {
+        "size": 89084,
+        "mimeType": "text/javascript"
+      }
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 0.16299998969771,
+      "dns": -1,
+      "connect": -1,
+      "send": 0.101000012364238,
+      "wait": 50.27999999583695,
+      "receive": 3.4319999977015314,
+      "ssl": -1
+    },
+    "serverIPAddress": "74.125.201.94",
+    "connection": "18",
+    "_initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "s_9d",
+            "scriptId": "30",
+            "url": "https://www.google.ca/xjs/_/js/k=xjs.s.en.0nYfitDdIYE.O/m=sx,sb,cdos,cr,elog,hsm,jsa,r,d,csi/am=wCL0eMEDkP8fAooEKwgsSBphGBo/rt=j/d=1/t=zcms/rs=ACT90oGDmv-KwvP-YRsHjtrjND83pMTOgQ",
+            "lineNumber": 158,
+            "columnNumber": 70
+          }
+        ]
+      }
+    },
+    "_priority": "Low"
+  },
+  {
+    "pageref": "page_1",
+    "startedDateTime": "2018-02-07T04:16:11.853Z",
+    "time": 150.23800000199117,
+    "request": {
+      "method": "GET",
+      "url": "https://www.google.com/textinputassistant/tia.png",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": ":path",
+          "value": "/textinputassistant/tia.png"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+        },
+        {
+          "name": "referer",
+          "value": "https://www.google.ca/"
+        },
+        {
+          "name": ":authority",
+          "value": "www.google.com"
+        },
+        {
+          "name": ":scheme",
+          "value": "https"
+        },
+        {
+          "name": ":method",
+          "value": "GET"
+        }
+      ],
+      "queryString": [],
+      "headersSize": -1,
+      "bodySize": -1
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": "date",
+          "value": "Wed, 17 Jan 2018 00:53:58 GMT"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 08 Dec 2016 15:30:00 GMT"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "age",
+          "value": "1826533"
+        },
+        {
+          "name": "content-type",
+          "value": "image/png"
+        },
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "alt-svc",
+          "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+        },
+        {
+          "name": "content-length",
+          "value": "258"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "expires",
+          "value": "Thu, 17 Jan 2019 00:53:58 GMT"
+        }
+      ],
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 573,
+      "content": {
+        "size": 258,
+        "mimeType": "image/png"
+      }
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 0.24600001052022,
+      "dns": 1.26499999896623,
+      "connect": 98.08100000373085,
+      "send": 0.08699999307289374,
+      "wait": 49.953000008826805,
+      "receive": 0.605999986874167,
+      "ssl": 56.455999991158
+    },
+    "serverIPAddress": "108.177.112.106",
+    "connection": "53",
+    "_initiator": {
+      "type": "parser",
+      "url": "https://www.google.ca/?gfe_rd=cr&dcr=0&ei=i316WpapDqGFX8_gregI",
+      "lineNumber": 0
+    },
+    "_priority": "Low"
+  },
+  {
+    "pageref": "page_1",
+    "startedDateTime": "2018-02-07T04:16:11.856Z",
+    "time": 126.46699999459088,
+    "request": {
+      "method": "GET",
+      "url": "https://www.gstatic.com/og/_/js/k=og.og2.en_US.1KX-mFknZ_0.O/rt=j/m=def/exm=in,fot/d=1/ed=1/rs=AA2YrTuYBNXI2WfsWOZ7BwnBUE80MWT3Og",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": ":path",
+          "value": "/og/_/js/k=og.og2.en_US.1KX-mFknZ_0.O/rt=j/m=def/exm=in,fot/d=1/ed=1/rs=AA2YrTuYBNXI2WfsWOZ7BwnBUE80MWT3Og"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "*/*"
+        },
+        {
+          "name": "referer",
+          "value": "https://www.google.ca/"
+        },
+        {
+          "name": ":authority",
+          "value": "www.gstatic.com"
+        },
+        {
+          "name": ":scheme",
+          "value": "https"
+        },
+        {
+          "name": ":method",
+          "value": "GET"
+        }
+      ],
+      "queryString": [],
+      "headersSize": -1,
+      "bodySize": -1
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": "date",
+          "value": "Mon, 22 Jan 2018 07:33:45 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 18 Jan 2018 03:53:34 GMT"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "age",
+          "value": "1370546"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding, Origin"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "alt-svc",
+          "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+        },
+        {
+          "name": "content-length",
+          "value": "47548"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "expires",
+          "value": "Tue, 22 Jan 2019 07:33:45 GMT"
+        }
+      ],
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 47922,
+      "content": {
+        "size": 138813,
+        "mimeType": "text/javascript"
+      }
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 0.151999993249774,
+      "dns": 23.407000000588624,
+      "connect": 63.2559999939985,
+      "send": 0.11100000119769504,
+      "wait": 16.7639999999664,
+      "receive": 22.777000005589883,
+      "ssl": 44.555000000400504
+    },
+    "serverIPAddress": "172.217.13.195",
+    "connection": "60",
+    "_initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "so",
+            "scriptId": "23",
+            "url": "https://www.google.ca/?gfe_rd=cr&dcr=0&ei=i316WpapDqGFX8_gregI",
+            "lineNumber": 295,
+            "columnNumber": 177
+          }
+        ]
+      }
+    },
+    "_priority": "Low"
+  },
+  {
+    "pageref": "page_1",
+    "startedDateTime": "2018-02-07T04:16:11.992Z",
+    "time": 50.965000002179295,
+    "request": {
+      "method": "GET",
+      "url": "https://apis.google.com/_/scs/abc-static/_/js/k=gapi.gapi.en.41Z8rKx1XQQ.O/m=gapi_iframes,googleapis_client,plusone/rt=j/sv=1/d=1/ed=1/am=AAE/rs=AHpOoo-9aMm3x1MgiL0Q16Hn9-7ySAbiAQ/cb=gapi.loaded_0",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": ":path",
+          "value": "/_/scs/abc-static/_/js/k=gapi.gapi.en.41Z8rKx1XQQ.O/m=gapi_iframes,googleapis_client,plusone/rt=j/sv=1/d=1/ed=1/am=AAE/rs=AHpOoo-9aMm3x1MgiL0Q16Hn9-7ySAbiAQ/cb=gapi.loaded_0"
+        },
+        {
+          "name": "accept-encoding",
+          "value": "gzip, deflate"
+        },
+        {
+          "name": "user-agent",
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+        },
+        {
+          "name": "accept",
+          "value": "*/*"
+        },
+        {
+          "name": "referer",
+          "value": "https://www.google.ca/"
+        },
+        {
+          "name": ":authority",
+          "value": "apis.google.com"
+        },
+        {
+          "name": ":scheme",
+          "value": "https"
+        },
+        {
+          "name": ":method",
+          "value": "GET"
+        }
+      ],
+      "queryString": [],
+      "headersSize": -1,
+      "bodySize": -1
+    },
+    "response": {
+      "status": 200,
+      "statusText": "",
+      "httpVersion": "h2",
+      "cookies": [],
+      "headers": [
+        {
+          "name": "date",
+          "value": "Thu, 01 Feb 2018 19:08:13 GMT"
+        },
+        {
+          "name": "content-encoding",
+          "value": "gzip"
+        },
+        {
+          "name": "x-content-type-options",
+          "value": "nosniff"
+        },
+        {
+          "name": "last-modified",
+          "value": "Thu, 01 Feb 2018 15:25:48 GMT"
+        },
+        {
+          "name": "server",
+          "value": "sffe"
+        },
+        {
+          "name": "age",
+          "value": "464879"
+        },
+        {
+          "name": "vary",
+          "value": "Accept-Encoding"
+        },
+        {
+          "name": "content-type",
+          "value": "text/javascript; charset=UTF-8"
+        },
+        {
+          "name": "status",
+          "value": "200"
+        },
+        {
+          "name": "cache-control",
+          "value": "public, max-age=31536000"
+        },
+        {
+          "name": "accept-ranges",
+          "value": "bytes"
+        },
+        {
+          "name": "alt-svc",
+          "value": "hq=\":443\"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=\":443\"; ma=2592000; v=\"41,39,38,37,35\""
+        },
+        {
+          "name": "content-length",
+          "value": "48259"
+        },
+        {
+          "name": "x-xss-protection",
+          "value": "1; mode=block"
+        },
+        {
+          "name": "expires",
+          "value": "Fri, 01 Feb 2019 19:08:13 GMT"
+        }
+      ],
+      "redirectURL": "",
+      "headersSize": -1,
+      "bodySize": -1,
+      "_transferSize": 48508,
+      "content": {
+        "size": 139940,
+        "mimeType": "text/javascript"
+      }
+    },
+    "cache": {},
+    "timings": {
+      "blocked": 13.5450000234414,
+      "dns": -1,
+      "connect": -1,
+      "send": 0.13199998647900024,
+      "wait": 15.8820000069682,
+      "receive": 21.405999985290695,
+      "ssl": -1
+    },
+    "serverIPAddress": "172.217.13.142",
+    "connection": "9",
+    "_initiator": {
+      "type": "script",
+      "stack": {
+        "callFrames": [
+          {
+            "functionName": "es",
+            "scriptId": "32",
+            "url": "https://www.gstatic.com/og/_/js/k=og.og2.en_US.1KX-mFknZ_0.O/rt=j/m=def/exm=in,fot/d=1/ed=1/rs=AA2YrTuYBNXI2WfsWOZ7BwnBUE80MWT3Og",
+            "lineNumber": 101,
+            "columnNumber": 474
+          }
+        ]
+      }
+    },
+    "_priority": "Low"
+  }
+]

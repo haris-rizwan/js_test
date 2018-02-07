@@ -1,0 +1,17 @@
+{
+  "name": "selenium-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haris",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-har-capturer": "0.11.0",
+    "chrome-remote-interface": "0.25.5",
+    "node-cmd": "3.0.0",
+    "dataframe-js": "1.2.7"
+  }
+}
