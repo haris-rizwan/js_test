@@ -7,6 +7,8 @@ function get_contobox_data(){
         dataType: "JSON",
         success: function(response){
            output = response;
+           if (output != ""){
+           $("#tshow").css("display", "block")}
            console.log(output);
         }})
 };
