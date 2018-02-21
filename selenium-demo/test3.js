@@ -16,8 +16,11 @@ let harData;
 var bannerHar = [];
 var expHar = [];
 var preLinks = [];
+var expLinks =[];
 var preError = {};
+var expError = {};
 var prehttplinks = [];
+var exphttplinks = [];
 var preUrlSize = {};
 var expUrlSize= {};
 // var urlSize = {};
@@ -90,19 +93,59 @@ function bannerHarSorting() {
 
 };
 
+function expHarSorting() {
+    var transferedSize = [];
+    for (values in expHar) {
+        var x = expHar[values].request.url;
+        expLinks.push(x);
+
+        // checking the url for HTTP 
+
+        bol_check = (x.match(httpCheck_regex));
+        if (bol_check !== null) {
+            exphttplinks.push(x);
+        };
+
+        // getting the transfered size of the responses
+
+        var checkSize = expHar[values].response._transferSize;
+        transferedSize.push(checkSize);
+        expUrlSize[x] = checkSize;
+
+        const reducer = (accumulator, currentValue) => accumulator + currentValue;
+        expWeight = transferedSize.reduce(reducer);
+
+        // checking response for status 403 and 404
+
+        if(expHar[values].response.status==403 || expHar[values].response.status==404){
+
+            expError[x]=expHar[values].response.status;
+        };
+
+
+
+
+    }
+
+    console.log("exp results done");
+
+};
 
 function testDataWithCo() {
     co(function* () {
         harData = yield getData(urlz);
         sortHar();
         bannerHarSorting();
-        console.log(preUrlSize);
-        console.log(preError);
+        expHarSorting();
+        console.log("number of pre request "+ preLinks.length);
+        console.log("number of exp request "+ expLinks.length);
         // console.log(expHar);
           
              
     });
 };
+
+testDataWithCo();
 
 // getData(urlz).then(function (r) {
 //     harData = r;
@@ -116,7 +159,7 @@ function testDataWithCo() {
 //     var filteredLogs = logs.log.entries;
 //     console.log(filteredLogs);
 // });
-testDataWithCo();
+
 
 
 
