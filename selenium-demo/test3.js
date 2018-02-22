@@ -8,9 +8,11 @@ var fs = require('fs');
 
 var co = require('co');
 
+addID = 20005
 
-var banner = "https://dbb1.contobox.com/v3/preview.php?id=20005"
-var previewExpandable = "https://dbb1.contobox.com/v3/preview.php?id=20005&tpl=preview_expanded"
+
+var banner = "https://dbb1.contobox.com/v3/preview.php?id="+addID
+var previewExpandable = "https://dbb1.contobox.com/v3/preview.php?id="+addID+"&tpl=preview_expanded"
 var urlz = [banner, previewExpandable];
 let harData;
 var bannerHar = [];
@@ -23,9 +25,22 @@ var prehttplinks = [];
 var exphttplinks = [];
 var preUrlSize = {};
 var expUrlSize= {};
-// var urlSize = {};
+var sorted_pre_links=[];
+var sorted_exp_links=[];
 var preWeight;
+var expWeight;
 var httpCheck_regex = /(http)\:\/\//gi;
+
+let result = {};
+result["PreExp"]= {};
+result["Expandable"]= {};
+result["Total"]= {};
+// result.PreExp.Weight = 12;  
+// result.PreExp.http = 25; 
+
+// console.log(result);
+
+
 
 function getData(link) {
 
@@ -85,9 +100,16 @@ function bannerHarSorting() {
         };
 
 
-
-
     }
+ //soting the links acoording to their size , starting from the highest
+
+    for (var z in preUrlSize) {
+        sorted_pre_links.push([z, preUrlSize[z]]);
+    };
+
+    sorted_pre_links.sort(function(a, b) {
+        return b[1] - a[1];
+    });
 
     console.log("banner results done");
 
@@ -125,7 +147,17 @@ function expHarSorting() {
 
 
 
-    }
+    };
+
+    //soting the links acoording to their size , starting from the highest
+
+    for (var z in preUrlSize) {
+        sorted_exp_links.push([z, expUrlSize[z]]);
+    };
+
+    sorted_exp_links.sort(function(a, b) {
+        return b[1] - a[1];
+    });
 
     console.log("exp results done");
 
@@ -137,11 +169,24 @@ function testDataWithCo() {
         sortHar();
         bannerHarSorting();
         expHarSorting();
-        console.log("number of pre request "+ preLinks.length);
-        console.log("number of exp request "+ expLinks.length);
-        // console.log(expHar);
-          
-             
+        result.PreExp.Weight = preWeight/1000;
+        result.PreExp.Http_Requets = prehttplinks;
+        result.PreExp.Requets = preLinks.length;
+        result.PreExp.Erros = preError;
+        // result.PreExp.Heavy_files=sorted_pre_links;
+        // console.log(result);  
+        result.Expandable.Weight = expWeight/1000;
+        result.Expandable.Http_Requets = exphttplinks;
+        result.Expandable.Requets = expLinks.length;
+        result.Expandable.Erros = expError.length;
+        result.Expandable.Heavy_files=sorted_exp_links;
+
+        result.Total.Weight = (expWeight+preWeight)/1000;
+        result.Total.Http_Requets = exphttplinks.length+prehttplinks;
+        result.Total.Requets = expLinks.length+preLinks.length;
+        // result.Total.Erros = expError.length+preError.length;
+
+        console.log(result);  
     });
 };
 
