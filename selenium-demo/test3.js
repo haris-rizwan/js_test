@@ -43,7 +43,7 @@ result["Total"]= {};
 function getData(link) {
 
     return new Promise(function (res, rej) {
-        harCapturing.run(link,{timeout:10000}).on('har', function (har) {
+        harCapturing.run(link,{timeout:5000}).on('har', function (har) {
             var logs = har;
             // console.log(logs); 
             var filteredLogs = logs.log.entries;
@@ -99,14 +99,18 @@ function bannerHarSorting() {
 
     }
  //soting the links acoording to their size , starting from the highest
-
+    var sorted = [];
     for (var z in preUrlSize) {
-        sorted_pre_links.push([z, preUrlSize[z]]);
+        sorted.push([z, preUrlSize[z]]);
     };
 
-    sorted_pre_links.sort(function(a, b) {
+    sorted.sort(function(a, b) {
         return b[1] - a[1];
     });
+
+    for(var i = 0;i<10;i++){
+        sorted_pre_links.push(sorted[i]);
+    }
 
     console.log("banner results done");
 
@@ -149,14 +153,18 @@ function expHarSorting() {
     };
 
     //soting the links acoording to their size , starting from the highest
-
+    var sorted = [];
     for (var z in expUrlSize) {
-        sorted_exp_links.push([z, expUrlSize[z]]);
+        sorted.push([z, expUrlSize[z]]);
     };
 
-    sorted_exp_links.sort(function(a, b) {
+    sorted.sort(function(a, b) {
         return b[1] - a[1];
     });
+
+    for(var i = 0;i<10;i++){
+        sorted_exp_links.push(sorted[i]);
+    }
 
     console.log("exp results done");
 
@@ -172,18 +180,18 @@ function runProgram() {
         result.PreExp.Http_Requets = prehttplinks;
         result.PreExp.Requets = preLinks.length;
         // result.PreExp.Erros = preError;
-        // result.PreExp.Heavy_files=sorted_pre_links;
+        result.PreExp.Heavy_files=sorted_pre_links;
         // console.log(result);  
         result.Expandable.Weight = expWeight/1000;
         result.Expandable.Http_Requets = exphttplinks;
         result.Expandable.Requets = expLinks.length;
         // result.Expandable.Erros = expError;
-        // result.Expandable.Heavy_files=sorted_exp_links;
+        result.Expandable.Heavy_files=sorted_exp_links;
 
         result.Total.Weight = (expWeight+preWeight)/1000;
         result.Total.Http_Requets = exphttplinks.length+prehttplinks;
         result.Total.Requets = expLinks.length+preLinks.length;
-        // result.Total.Erros = expError.length+preError.length;
+        
 
         console.log(result);
         console.log("======================================");
