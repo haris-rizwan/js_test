@@ -8,19 +8,22 @@ var fs = require('fs');
 
 var co = require('co');
 
-addID = 20005
+addID = 20583;
+// 20580 jaguaar
+// 20064 tourism
+// 20547 floor and decor 
 
 
-var banner = "https://dbb1.contobox.com/v3/preview.php?id="+addID
-var previewExpandable = "https://dbb1.contobox.com/v3/preview.php?id="+addID+"&tpl=preview_expanded"
+var banner = "https://dbb1.contobox.com/v3/preview.php?id="+addID;
+var previewExpandable = "https://dbb1.contobox.com/v3/preview.php?id="+addID+"&tpl=preview_expanded";
 var urlz = [banner, previewExpandable];
 let harData;
 var bannerHar = [];
 var expHar = [];
 var preLinks = [];
 var expLinks =[];
-var preError = {};
-var expError = {};
+var preError = {} || null;
+var expError = {} || null;
 var prehttplinks = [];
 var exphttplinks = [];
 var preUrlSize = {};
@@ -35,17 +38,12 @@ let result = {};
 result["PreExp"]= {};
 result["Expandable"]= {};
 result["Total"]= {};
-// result.PreExp.Weight = 12;  
-// result.PreExp.http = 25; 
-
-// console.log(result);
-
 
 
 function getData(link) {
 
     return new Promise(function (res, rej) {
-        harCapturing.run(link).on('har', function (har) {
+        harCapturing.run(link,{timeout:10000}).on('har', function (har) {
             var logs = har;
             // console.log(logs); 
             var filteredLogs = logs.log.entries;
@@ -58,9 +56,9 @@ function getData(link) {
 
 function sortHar() {
     for (var values in harData) {
-        if (harData[values].pageref == 'page_1')
+        if (harData[values].pageref == 'page_1') {
             bannerHar.push(harData[values]);
-        else {
+        } else {
             expHar.push(harData[values]);
         };
 
@@ -95,7 +93,6 @@ function bannerHarSorting() {
         // checking response for status 403 and 404
 
         if(bannerHar[values].response.status==403 || bannerHar[values].response.status==404){
-
             preError[x]=bannerHar[values].response.status;
         };
 
@@ -139,6 +136,8 @@ function expHarSorting() {
 
         // checking response for status 403 and 404
 
+        
+
         if(expHar[values].response.status==403 || expHar[values].response.status==404){
 
             expError[x]=expHar[values].response.status;
@@ -151,7 +150,7 @@ function expHarSorting() {
 
     //soting the links acoording to their size , starting from the highest
 
-    for (var z in preUrlSize) {
+    for (var z in expUrlSize) {
         sorted_exp_links.push([z, expUrlSize[z]]);
     };
 
@@ -163,7 +162,7 @@ function expHarSorting() {
 
 };
 
-function testDataWithCo() {
+function runProgram() {
     co(function* () {
         harData = yield getData(urlz);
         sortHar();
@@ -172,38 +171,33 @@ function testDataWithCo() {
         result.PreExp.Weight = preWeight/1000;
         result.PreExp.Http_Requets = prehttplinks;
         result.PreExp.Requets = preLinks.length;
-        result.PreExp.Erros = preError;
+        // result.PreExp.Erros = preError;
         // result.PreExp.Heavy_files=sorted_pre_links;
         // console.log(result);  
         result.Expandable.Weight = expWeight/1000;
         result.Expandable.Http_Requets = exphttplinks;
         result.Expandable.Requets = expLinks.length;
-        result.Expandable.Erros = expError.length;
-        result.Expandable.Heavy_files=sorted_exp_links;
+        // result.Expandable.Erros = expError;
+        // result.Expandable.Heavy_files=sorted_exp_links;
 
         result.Total.Weight = (expWeight+preWeight)/1000;
         result.Total.Http_Requets = exphttplinks.length+prehttplinks;
         result.Total.Requets = expLinks.length+preLinks.length;
         // result.Total.Erros = expError.length+preError.length;
 
-        console.log(result);  
+        console.log(result);
+        console.log("======================================");
+        // console.log(preLinks);
+        console.log("==================================================");
+        // console.log(expLinks);  
+        // console.log(sorted_exp_links);
     });
 };
 
-testDataWithCo();
 
-// getData(urlz).then(function (r) {
-//     harData = r;
-    
-// });
-// var url_banner = [banner];
+setTimeout(function(){ runProgram() }, 2000);
 
-// harCapturing.run(url_banner).on('har', function (har) {
-//     var logs = har;
-//     // console.log(logs);
-//     var filteredLogs = logs.log.entries;
-//     console.log(filteredLogs);
-// });
+
 
 
 

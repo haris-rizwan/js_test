@@ -1,11 +1,11 @@
 var cmd = require('node-cmd');
 
-var cmd1 = 'sh runChromeHeadless.sh';
-cmd.run(cmd1);
+// var cmd1 = 'sh runChromeHeadless.sh';
+// cmd.run(cmd1);
 
 var harCapturing = require('chrome-har-capturer');
 var fs = require('fs');
-var dataFrame = require('dataframe-js');
+// var dataFrame = require('dataframe-js');
 
 var banner ="https://dbb1.contobox.com/v3/preview.php?id=20055"
 var previewExpandable ="https://dbb1.contobox.com/v3/preview.php?id=20055&tpl=preview_expanded"

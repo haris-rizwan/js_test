@@ -1,8 +1,8 @@
 [
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.559Z",
-    "time": 179.701000044588,
+    "startedDateTime": "2018-02-23T03:44:48.030Z",
+    "time": 165.40499999996428,
     "request": {
       "method": "GET",
       "url": "https://dbb1.contobox.com/v3/preview.php?id=20005&tpl=preview_expanded",
@@ -31,7 +31,7 @@
         },
         {
           "name": "User-Agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         }
       ],
       "queryString": [
@@ -55,7 +55,7 @@
       "headers": [
         {
           "name": "Date",
-          "value": "Sun, 11 Feb 2018 01:59:47 GMT"
+          "value": "Fri, 23 Feb 2018 03:44:48 GMT"
         },
         {
           "name": "Content-Encoding",
@@ -110,15 +110,15 @@
     },
     "cache": {},
     "timings": {
-      "blocked": 2.09700001869351,
-      "dns": 21.095000032801188,
-      "connect": 121.83499999810029,
-      "send": 0.10499998461401105,
-      "wait": 29.439000005368,
-      "receive": 5.130000005010999,
-      "ssl": 93.27200002735509
+      "blocked": 0.340000000051077,
+      "dns": 13.686000000006922,
+      "connect": 115.61299999993899,
+      "send": 0.10199999996999054,
+      "wait": 32.922999999983006,
+      "receive": 2.7410000000142816,
+      "ssl": 85.99299999991699
     },
-    "serverIPAddress": "52.72.144.118",
+    "serverIPAddress": "52.86.43.251",
     "connection": "9",
     "_initiator": {
       "type": "other"
@@ -127,11 +127,11 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.577Z",
-    "time": 119.25699998391792,
+    "startedDateTime": "2018-02-23T03:44:48.040Z",
+    "time": 462.6510000000508,
     "request": {
       "method": "GET",
-      "url": "https://dbb1.contobox.com/v3/frontend/creatives/getcode.js?expanded=1&busted=false&tabToOpenOnExpansion=0&expanded_share=false&id=20005&schema=&ph_id=cbox_ph_4967151&zone_id=0&dyno_tag_params=&debug_ip=&lid=%3Clid%3E&ifr=0&clicktag=%25%25CLICK_URL_UNESC%25%25&fromurl=https%3A%2F%2Fdbb1.contobox.com%2Fv3%2Fpreview.php%3Fid%3D20005%26tpl%3Dpreview_expanded&ref=",
+      "url": "https://dbb1.contobox.com/v3/frontend/creatives/getcode.js?expanded=1&busted=false&tabToOpenOnExpansion=0&expanded_share=false&id=20005&schema=&ph_id=cbox_ph_183694&zone_id=0&dyno_tag_params=&debug_ip=&lid=%3Clid%3E&ifr=0&clicktag=%25%25CLICK_URL_UNESC%25%25&fromurl=https%3A%2F%2Fdbb1.contobox.com%2Fv3%2Fpreview.php%3Fid%3D20005%26tpl%3Dpreview_expanded&ref=",
       "httpVersion": "http/1.1",
       "cookies": [],
       "headers": [
@@ -161,7 +161,7 @@
         },
         {
           "name": "User-Agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         }
       ],
       "queryString": [
@@ -191,7 +191,7 @@
         },
         {
           "name": "ph_id",
-          "value": "cbox_ph_4967151"
+          "value": "cbox_ph_183694"
         },
         {
           "name": "zone_id",
@@ -226,7 +226,7 @@
           "value": ""
         }
       ],
-      "headersSize": 852,
+      "headersSize": 851,
       "bodySize": -1
     },
     "response": {
@@ -237,7 +237,7 @@
       "headers": [
         {
           "name": "Date",
-          "value": "Sun, 11 Feb 2018 01:59:47 GMT"
+          "value": "Fri, 23 Feb 2018 03:44:48 GMT"
         },
         {
           "name": "Content-Encoding",
@@ -265,7 +265,7 @@
         },
         {
           "name": "Set-Cookie",
-          "value": "ContoboxGetCode=8719965366a84de890674123c981f3b2\nContoboxFingerprint="
+          "value": "ContoboxGetCode=3c62fc1eeaf94ead9ce69b71c3d095b6\nContoboxFingerprint="
         },
         {
           "name": "Connection",
@@ -278,25 +278,25 @@
       ],
       "redirectURL": "",
       "headersSize": 583,
-      "bodySize": 34104,
-      "_transferSize": 34687,
+      "bodySize": 35140,
+      "_transferSize": 35723,
       "content": {
-        "size": 127109,
+        "size": 131372,
         "mimeType": "text/javascript",
-        "compression": 93005
+        "compression": 96232
       }
     },
     "cache": {},
     "timings": {
-      "blocked": 0.315000012051314,
+      "blocked": 0.249000000167143,
       "dns": -1,
       "connect": -1,
-      "send": 0.0799999688752,
-      "wait": 84.20199999818578,
-      "receive": 34.660000004805624,
+      "send": 0.10899999983848899,
+      "wait": 433.63199999998835,
+      "receive": 28.661000000056788,
       "ssl": -1
     },
-    "serverIPAddress": "52.72.144.118",
+    "serverIPAddress": "52.86.43.251",
     "connection": "9",
     "_initiator": {
       "type": "script",
@@ -316,17 +316,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.746Z",
-    "time": 252.04200000735,
+    "startedDateTime": "2018-02-23T03:44:48.530Z",
+    "time": 239.74100000009457,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/bg1-1.jpg?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/bg1-11.jpg?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/bg1-1.jpg?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/bg1-11.jpg?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -334,7 +334,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -360,7 +360,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -374,15 +374,15 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Mon, 19 Feb 2018 17:43:23 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
-          "value": "Mon, 05 Feb 2018 20:53:39 GMT"
+          "value": "Mon, 12 Feb 2018 15:36:33 GMT"
         },
         {
           "name": "server",
@@ -390,7 +390,7 @@
         },
         {
           "name": "etag",
-          "value": "\"f5c3fe0681a6e5178742dbcb3a71cb05\""
+          "value": "\"200799329f2d349a520b56a3885b4d10\""
         },
         {
           "name": "x-cache",
@@ -398,7 +398,7 @@
         },
         {
           "name": "x-amz-version-id",
-          "value": "VMv57isK8rEAn2H5xCqQe20lPq7IyHw5"
+          "value": "JkDwrdHf4aYYH6tSrXLJrcgVskWhJl7Q"
         },
         {
           "name": "status",
@@ -414,34 +414,34 @@
         },
         {
           "name": "content-length",
-          "value": "52176"
+          "value": "104388"
         },
         {
           "name": "x-amz-cf-id",
-          "value": "SYMeg7XQ-2N4Rrv5OvE7wPdciyjQuFOL9N-jVexQ4Iu15LzAAvywbg=="
+          "value": "PmJPcUC-MJa2h_i8rv60wRg80Swb2Ky9DOPEAiVkPpob0H-SRf530g=="
         }
       ],
       "redirectURL": "",
       "headersSize": -1,
       "bodySize": -1,
-      "_transferSize": 52576,
+      "_transferSize": 104851,
       "content": {
-        "size": 52176,
+        "size": 104388,
         "mimeType": "image/jpeg"
       }
     },
     "cache": {},
     "timings": {
-      "blocked": 69.47400001809,
+      "blocked": 66.2260000001425,
       "dns": -1,
       "connect": -1,
-      "send": 1.5359999961220012,
-      "wait": 177.670999953989,
-      "receive": 3.3610000391489905,
+      "send": 0.3830000000561995,
+      "wait": 166.3379999999963,
+      "receive": 6.793999999899569,
       "ssl": -1
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "script",
       "stack": {
@@ -450,7 +450,7 @@
             "functionName": "refreshFrameSizes",
             "scriptId": "21",
             "url": "",
-            "lineNumber": 341,
+            "lineNumber": 342,
             "columnNumber": 1141
           }
         ]
@@ -460,17 +460,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.746Z",
-    "time": 259.55099996645004,
+    "startedDateTime": "2018-02-23T03:44:48.530Z",
+    "time": 231.74300000005132,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/txt1.png?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/txt1.png?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/txt1.png?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/txt1.png?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -478,7 +478,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -504,7 +504,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -518,11 +518,11 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Mon, 19 Feb 2018 17:43:23 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
@@ -562,13 +562,13 @@
         },
         {
           "name": "x-amz-cf-id",
-          "value": "QC0JMUNf4KNvV5olKCbbfyGGVFLus4_SLsOtRsz1_Jf0ZYeYDmkDrA=="
+          "value": "Jq1n5yUaqackKmIZNOerI2YtX6n7hairbpE5vzPnLa2Z0ImkYEqb8g=="
         }
       ],
       "redirectURL": "",
       "headersSize": -1,
       "bodySize": -1,
-      "_transferSize": 22765,
+      "_transferSize": 22764,
       "content": {
         "size": 22395,
         "mimeType": "image/png"
@@ -576,16 +576,16 @@
     },
     "cache": {},
     "timings": {
-      "blocked": 69.1210000077263,
+      "blocked": 65.9150000001318,
       "dns": -1,
       "connect": -1,
-      "send": 1.6789999790489105,
-      "wait": 165.9550000331368,
-      "receive": 22.795999946538046,
+      "send": 0.34200000004609876,
+      "wait": 164.9509999999741,
+      "receive": 0.5349999998993269,
       "ssl": -1
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "script",
       "stack": {
@@ -594,7 +594,7 @@
             "functionName": "refreshFrameSizes",
             "scriptId": "21",
             "url": "",
-            "lineNumber": 341,
+            "lineNumber": 342,
             "columnNumber": 1141
           }
         ]
@@ -604,17 +604,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.746Z",
-    "time": 175.79900001874194,
+    "startedDateTime": "2018-02-23T03:44:48.530Z",
+    "time": 196.02999999983695,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/sel.png?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/sel.png?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/sel.png?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/sel.png?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -622,7 +622,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -648,7 +648,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -662,11 +662,11 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Mon, 19 Feb 2018 17:43:23 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
@@ -706,13 +706,13 @@
         },
         {
           "name": "x-amz-cf-id",
-          "value": "R7giLq9py5pfnEFlcAwqbZo5dUPSPqWEXg4O65GbPbNFXAWSWnkGug=="
+          "value": "QDLeh504lVv1-YfnfgdleuhERs2iaCVHCLCuNn5_i2mUzu8zsox9Tg=="
         }
       ],
       "redirectURL": "",
       "headersSize": -1,
       "bodySize": -1,
-      "_transferSize": 1001,
+      "_transferSize": 998,
       "content": {
         "size": 657,
         "mimeType": "image/png"
@@ -720,16 +720,16 @@
     },
     "cache": {},
     "timings": {
-      "blocked": 69.0210000029765,
+      "blocked": 65.8089999999447,
       "dns": -1,
       "connect": -1,
-      "send": 1.5920000150799893,
-      "wait": 103.1990000046785,
-      "receive": 1.9869999960069435,
+      "send": 0.3090000000157005,
+      "wait": 129.4199999999816,
+      "receive": 0.4919999998949436,
       "ssl": -1
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "script",
       "stack": {
@@ -738,7 +738,7 @@
             "functionName": "refreshFrameSizes",
             "scriptId": "21",
             "url": "",
-            "lineNumber": 341,
+            "lineNumber": 342,
             "columnNumber": 1141
           }
         ]
@@ -748,17 +748,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.747Z",
-    "time": 226.23199998633936,
+    "startedDateTime": "2018-02-23T03:44:48.531Z",
+    "time": 222.18699999984892,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/bg2-1.jpg?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/bg2-11.jpg?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/bg2-1.jpg?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/bg2-11.jpg?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -766,7 +766,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -792,7 +792,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -806,15 +806,15 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Sun, 18 Feb 2018 15:36:44 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
-          "value": "Mon, 05 Feb 2018 20:53:32 GMT"
+          "value": "Mon, 12 Feb 2018 15:36:33 GMT"
         },
         {
           "name": "server",
@@ -822,7 +822,7 @@
         },
         {
           "name": "etag",
-          "value": "\"dd4ba1b19bcd80255c4a61d279049134\""
+          "value": "\"d04c71b28524cd2fdd7f7fee42b9e9de\""
         },
         {
           "name": "x-cache",
@@ -830,7 +830,7 @@
         },
         {
           "name": "x-amz-version-id",
-          "value": "MuvVCHV3Z4j1DOfWB58BZ8QWroDGEm8p"
+          "value": "lkQlkvWs.SvaG74Ve4Uok9thed9WDne_"
         },
         {
           "name": "status",
@@ -846,34 +846,34 @@
         },
         {
           "name": "content-length",
-          "value": "62848"
+          "value": "128719"
         },
         {
           "name": "x-amz-cf-id",
-          "value": "G2gp9O0tYqd8yAVo7t7g0Q0wwY-fRoXiTZ__SXR6FpmRhyoUDfNFOg=="
+          "value": "6Fyg9lbXVm7YUnhlXCmTlIBxNN3h454b-N1bznpZIIfJ25l5DY-WAw=="
         }
       ],
       "redirectURL": "",
       "headersSize": -1,
       "bodySize": -1,
-      "_transferSize": 63266,
+      "_transferSize": 129210,
       "content": {
-        "size": 62848,
+        "size": 128719,
         "mimeType": "image/jpeg"
       }
     },
     "cache": {},
     "timings": {
-      "blocked": 68.9359999960288,
+      "blocked": 65.2009999998882,
       "dns": -1,
       "connect": -1,
-      "send": 1.5019999700598987,
-      "wait": 153.1170000089333,
-      "receive": 2.6770000113173467,
+      "send": 0.4410000001371088,
+      "wait": 130.67399999999867,
+      "receive": 25.87099999982493,
       "ssl": -1
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "script",
       "stack": {
@@ -882,7 +882,7 @@
             "functionName": "refreshFrameSizes",
             "scriptId": "21",
             "url": "",
-            "lineNumber": 341,
+            "lineNumber": 342,
             "columnNumber": 1141
           }
         ]
@@ -892,17 +892,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.748Z",
-    "time": 210.1969999494031,
+    "startedDateTime": "2018-02-23T03:44:48.531Z",
+    "time": 228.63200000006145,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/txt2.png?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/txt2.png?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/txt2.png?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/txt2.png?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -910,7 +910,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -936,7 +936,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -950,11 +950,11 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Sun, 18 Feb 2018 15:36:44 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
@@ -994,7 +994,7 @@
         },
         {
           "name": "x-amz-cf-id",
-          "value": "_wK__XA4UCf86n8zfrt4Z9lcGBJ4MyOIYZURssqzyGJ8BYC73Za4zw=="
+          "value": "CQHL-yhpjogdhrdGzpyv3WzOEzMVPxgqLWh4_T-7l7eNV6N6-3aoew=="
         }
       ],
       "redirectURL": "",
@@ -1008,16 +1008,16 @@
     },
     "cache": {},
     "timings": {
-      "blocked": 67.8699999698438,
+      "blocked": 64.9069999999483,
       "dns": -1,
       "connect": -1,
-      "send": 1.772999996319399,
-      "wait": 139.9530000053348,
-      "receive": 0.6009999779051043,
+      "send": 0.5660000001626031,
+      "wait": 158.2879999998571,
+      "receive": 4.87100000009346,
       "ssl": -1
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "script",
       "stack": {
@@ -1026,7 +1026,7 @@
             "functionName": "refreshFrameSizes",
             "scriptId": "21",
             "url": "",
-            "lineNumber": 341,
+            "lineNumber": 342,
             "columnNumber": 1141
           }
         ]
@@ -1036,17 +1036,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.749Z",
-    "time": 205.2329999860376,
+    "startedDateTime": "2018-02-23T03:44:48.531Z",
+    "time": 194.95099999994636,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/bg3-1.jpg?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/bg3-11.jpg?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/bg3-1.jpg?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/bg3-11.jpg?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -1054,7 +1054,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -1080,7 +1080,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -1094,15 +1094,15 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Sun, 18 Feb 2018 15:36:44 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
-          "value": "Mon, 05 Feb 2018 20:53:32 GMT"
+          "value": "Mon, 12 Feb 2018 15:36:32 GMT"
         },
         {
           "name": "server",
@@ -1110,7 +1110,7 @@
         },
         {
           "name": "etag",
-          "value": "\"a5d06f22e8306c51549b6013c6e661e0\""
+          "value": "\"ef299dd7faa2f6f8537c57f21cd0bdb5\""
         },
         {
           "name": "x-cache",
@@ -1118,7 +1118,7 @@
         },
         {
           "name": "x-amz-version-id",
-          "value": "JjaWZbI7YEvdPrNrnHAlIknXfgb0jZih"
+          "value": "hRd0IW6YY1FYvLFYOlwIrkq7zyEL57Tt"
         },
         {
           "name": "status",
@@ -1134,34 +1134,34 @@
         },
         {
           "name": "content-length",
-          "value": "87424"
+          "value": "167960"
         },
         {
           "name": "x-amz-cf-id",
-          "value": "HU6OQbZgH99CjPiUOpgoE2W2GhOntIvS09dBYtE5LkiHyvRqTGcAhg=="
+          "value": "OBhMTg0q0jnLYjFcdZ9bvQ7Ih-MnhS8zUOCMLD455eR6GJSl5ijmNw=="
         }
       ],
       "redirectURL": "",
       "headersSize": -1,
       "bodySize": -1,
-      "_transferSize": 87868,
+      "_transferSize": 168490,
       "content": {
-        "size": 87424,
+        "size": 167960,
         "mimeType": "image/jpeg"
       }
     },
     "cache": {},
     "timings": {
-      "blocked": 65.8730000141077,
+      "blocked": 64.2170000000988,
       "dns": -1,
       "connect": -1,
-      "send": 1.4419999788514986,
-      "wait": 113.95699996501179,
-      "receive": 23.96100002806662,
+      "send": 0.493000000005793,
+      "wait": 74.1809999999534,
+      "receive": 56.05999999988836,
       "ssl": -1
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "script",
       "stack": {
@@ -1170,7 +1170,7 @@
             "functionName": "refreshFrameSizes",
             "scriptId": "21",
             "url": "",
-            "lineNumber": 341,
+            "lineNumber": 342,
             "columnNumber": 1141
           }
         ]
@@ -1180,17 +1180,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.749Z",
-    "time": 126.23300001723692,
+    "startedDateTime": "2018-02-23T03:44:48.532Z",
+    "time": 124.20399999996334,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/txt3.png?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/txt3.png?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/txt3.png?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/txt3.png?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -1198,7 +1198,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -1224,7 +1224,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -1238,11 +1238,11 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Sun, 18 Feb 2018 15:36:44 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
@@ -1282,13 +1282,13 @@
         },
         {
           "name": "x-amz-cf-id",
-          "value": "RM2uqtFmWYk4B9ehcsiGtu734QiqEOXhwGllXI5s1dfFLrxtmEqEig=="
+          "value": "PeHzZ4GCFhh0ZU6n0Dga3dNaY3uKhlMWHOZZ0jbZbuR5XP5mk5rOgw=="
         }
       ],
       "redirectURL": "",
       "headersSize": -1,
       "bodySize": -1,
-      "_transferSize": 17878,
+      "_transferSize": 17872,
       "content": {
         "size": 17506,
         "mimeType": "image/png"
@@ -1296,16 +1296,16 @@
     },
     "cache": {},
     "timings": {
-      "blocked": 5.41500002145767,
+      "blocked": 1.13800000008268,
       "dns": -1,
       "connect": -1,
-      "send": 2.6700000162236392,
-      "wait": 117.6359999808487,
-      "receive": 0.5119999987069122,
+      "send": 0.9529999999813299,
+      "wait": 121.07999999989299,
+      "receive": 1.0330000000063393,
       "ssl": -1
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "script",
       "stack": {
@@ -1314,7 +1314,7 @@
             "functionName": "refreshFrameSizes",
             "scriptId": "21",
             "url": "",
-            "lineNumber": 341,
+            "lineNumber": 342,
             "columnNumber": 1141
           }
         ]
@@ -1324,17 +1324,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.750Z",
-    "time": 118.95600002026185,
+    "startedDateTime": "2018-02-23T03:44:48.532Z",
+    "time": 188.90200000009827,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/cta.png?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/cta.png?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/cta.png?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/cta.png?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -1342,7 +1342,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -1368,7 +1368,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -1382,11 +1382,11 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Mon, 19 Feb 2018 17:43:23 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
@@ -1426,7 +1426,7 @@
         },
         {
           "name": "x-amz-cf-id",
-          "value": "9HFzcTWTswxGgHegneHORFWPhfvG73hNFb-vZBZ09UL2d_jGl15j-w=="
+          "value": "AMlFeDkYezWkXi6AvXUGCjPxPk60nbG_sg-dmQFh-XEkn_z-DrC81g=="
         }
       ],
       "redirectURL": "",
@@ -1440,16 +1440,16 @@
     },
     "cache": {},
     "timings": {
-      "blocked": 3.19100002525374,
+      "blocked": 1.14800000005744,
       "dns": -1,
       "connect": -1,
-      "send": 2.6059999945573504,
-      "wait": 112.79300000751391,
-      "receive": 0.3659999929368496,
+      "send": 1.03899999999157,
+      "wait": 185.954999999922,
+      "receive": 0.7600000001272633,
       "ssl": -1
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "script",
       "stack": {
@@ -1458,7 +1458,7 @@
             "functionName": "refreshFrameSizes",
             "scriptId": "21",
             "url": "",
-            "lineNumber": 341,
+            "lineNumber": 342,
             "columnNumber": 1141
           }
         ]
@@ -1468,17 +1468,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.750Z",
-    "time": 115.9709999919869,
+    "startedDateTime": "2018-02-23T03:44:48.532Z",
+    "time": 125.27399999999034,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/via-logo.png?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/via-logo.png?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/via-logo.png?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/via-logo.png?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -1486,7 +1486,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -1512,7 +1512,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -1526,11 +1526,11 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Mon, 19 Feb 2018 17:43:23 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
@@ -1570,7 +1570,7 @@
         },
         {
           "name": "x-amz-cf-id",
-          "value": "26yfdAVmIkc8APn0mAES2B_D0KyTPSrE00rHy3byYOuXS7uBsnBdvQ=="
+          "value": "h__h78wCY4UcDEJTDdr4TzsRijH2UQpG5n9ngPxOYg3MM_5iHd_7wg=="
         }
       ],
       "redirectURL": "",
@@ -1584,16 +1584,16 @@
     },
     "cache": {},
     "timings": {
-      "blocked": 3.41100001242012,
+      "blocked": 1.16000000002714,
       "dns": -1,
       "connect": -1,
-      "send": 2.30100000044331,
-      "wait": 109.55699998885358,
-      "receive": 0.701999990269897,
+      "send": 0.9760000000369502,
+      "wait": 122.55499999991991,
+      "receive": 0.5830000000063364,
       "ssl": -1
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "script",
       "stack": {
@@ -1602,7 +1602,7 @@
             "functionName": "refreshFrameSizes",
             "scriptId": "21",
             "url": "",
-            "lineNumber": 341,
+            "lineNumber": 342,
             "columnNumber": 1141
           }
         ]
@@ -1612,17 +1612,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.753Z",
-    "time": 199.08599997870624,
+    "startedDateTime": "2018-02-23T03:44:48.533Z",
+    "time": 184.7419999999147,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/via-mark.png?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/via-mark.png?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/via-mark.png?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/via-mark.png?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -1630,7 +1630,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -1656,7 +1656,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -1670,11 +1670,11 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Mon, 19 Feb 2018 17:43:23 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
@@ -1714,7 +1714,7 @@
         },
         {
           "name": "x-amz-cf-id",
-          "value": "eVVYlVI8w-G4zdulmK6G3W_PbhuWbTjVnE4-eg_ZeywWO2-QLhk5BQ=="
+          "value": "F04gGdfBgd_OlV3GrGLTdX38p2-XoHVUoeT3bkwlsJkDIeFlP7idQQ=="
         }
       ],
       "redirectURL": "",
@@ -1730,14 +1730,14 @@
     "timings": {
       "blocked": 0,
       "dns": 0,
-      "connect": 15.1499999919906,
-      "send": 2.0499999518506993,
-      "wait": 181.5250000217927,
-      "receive": 0.3610000130722426,
-      "ssl": 12.4979999964125
+      "connect": 26.3499999998658,
+      "send": 0.627000000122198,
+      "wait": 157.06699999986998,
+      "receive": 0.6980000000567088,
+      "ssl": 25.7779999999457
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "script",
       "stack": {
@@ -1746,7 +1746,7 @@
             "functionName": "refreshFrameSizes",
             "scriptId": "21",
             "url": "",
-            "lineNumber": 341,
+            "lineNumber": 342,
             "columnNumber": 1141
           }
         ]
@@ -1756,17 +1756,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.807Z",
-    "time": 76.57299999846146,
+    "startedDateTime": "2018-02-23T03:44:48.575Z",
+    "time": 126.31099999998696,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/1a.png?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/1a.png?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/1a.png?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/1a.png?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -1774,7 +1774,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -1800,7 +1800,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -1814,11 +1814,11 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Mon, 19 Feb 2018 17:43:23 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
@@ -1858,13 +1858,13 @@
         },
         {
           "name": "x-amz-cf-id",
-          "value": "u3yxUSA3sN9L2ygxGMaZRXLsU7INbEmXg2ZwYYPjMc5Os1P8NlfhRA=="
+          "value": "n6wQeldUJifYhKxSTJ2uiv9u6U8GfdJ-9ptq43fiCBzzMM9KmKu_sw=="
         }
       ],
       "redirectURL": "",
       "headersSize": -1,
       "bodySize": -1,
-      "_transferSize": 4901,
+      "_transferSize": 4900,
       "content": {
         "size": 4557,
         "mimeType": "image/png"
@@ -1872,16 +1872,16 @@
     },
     "cache": {},
     "timings": {
-      "blocked": 4.84500004677102,
+      "blocked": 1.15200000004734,
       "dns": -1,
       "connect": -1,
-      "send": 0.7519999635405803,
-      "wait": 70.4990000231192,
-      "receive": 0.47699996503065734,
+      "send": 0.9370000000217198,
+      "wait": 123.64800000000294,
+      "receive": 0.5739999999149603,
       "ssl": -1
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "parser",
       "url": "https://dbb1.contobox.com/v3/preview.php?id=20005&tpl=preview_expanded",
@@ -1891,17 +1891,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.807Z",
-    "time": 118.03900002269074,
+    "startedDateTime": "2018-02-23T03:44:48.575Z",
+    "time": 77.9459999998835,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/2a.png?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/2a.png?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/2a.png?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/2a.png?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -1909,7 +1909,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -1935,7 +1935,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -1949,11 +1949,11 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Sun, 18 Feb 2018 15:36:44 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
@@ -1993,13 +1993,13 @@
         },
         {
           "name": "x-amz-cf-id",
-          "value": "rFQbw9LgMUkQnIRjeqPMEhZLzMykSSpr_jjrqI0sMazser4RldQJSw=="
+          "value": "Z4kxpP7klyisNT8WHNzGplb4jbHVUMRlGBvsYc78sF__TXbkbIVJ-Q=="
         }
       ],
       "redirectURL": "",
       "headersSize": -1,
       "bodySize": -1,
-      "_transferSize": 5709,
+      "_transferSize": 5710,
       "content": {
         "size": 5365,
         "mimeType": "image/png"
@@ -2007,16 +2007,16 @@
     },
     "cache": {},
     "timings": {
-      "blocked": 4.95600001886487,
+      "blocked": 1.16000000002714,
       "dns": -1,
       "connect": -1,
-      "send": 0.5980000132694796,
-      "wait": 111.83299997355765,
-      "receive": 0.6520000169987412,
+      "send": 0.9009999998852398,
+      "wait": 75.23800000012672,
+      "receive": 0.6469999998443967,
       "ssl": -1
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "parser",
       "url": "https://dbb1.contobox.com/v3/preview.php?id=20005&tpl=preview_expanded",
@@ -2026,17 +2026,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.807Z",
-    "time": 127.14900000719354,
+    "startedDateTime": "2018-02-23T03:44:48.575Z",
+    "time": 128.01100000001497,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/1b.png?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/1b.png?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/1b.png?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/1b.png?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -2044,7 +2044,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -2070,7 +2070,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -2084,11 +2084,11 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Sun, 18 Feb 2018 15:36:44 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
@@ -2128,13 +2128,13 @@
         },
         {
           "name": "x-amz-cf-id",
-          "value": "hkJgWLKEwv8N7SaZAHw-kAUWa9PoUXw1czEFnJDXO6W-ljI0tCepXg=="
+          "value": "kQn-iL5EaL4CyRki0wot5E01Shgwz2ZGTklGdfc-scU02pVRqChxjw=="
         }
       ],
       "redirectURL": "",
       "headersSize": -1,
       "bodySize": -1,
-      "_transferSize": 5749,
+      "_transferSize": 5748,
       "content": {
         "size": 5404,
         "mimeType": "image/png"
@@ -2142,16 +2142,16 @@
     },
     "cache": {},
     "timings": {
-      "blocked": 4.98099997639656,
+      "blocked": 1.17099999988568,
       "dns": -1,
       "connect": -1,
-      "send": 0.5329999839887005,
-      "wait": 121.21100001968473,
-      "receive": 0.42400002712354024,
+      "send": 0.8680000000822499,
+      "wait": 125.65599999993508,
+      "receive": 0.3160000001119698,
       "ssl": -1
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "parser",
       "url": "https://dbb1.contobox.com/v3/preview.php?id=20005&tpl=preview_expanded",
@@ -2161,17 +2161,17 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:47.807Z",
-    "time": 110.51399999996647,
+    "startedDateTime": "2018-02-23T03:44:48.576Z",
+    "time": 127.25399999999354,
     "request": {
       "method": "GET",
-      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/2b.png?ac=1518191598",
+      "url": "https://cbmedia3.contobox.com/cbox_themes_v3/viarailq12018/images/2b.png?ac=1518449856",
       "httpVersion": "h2",
       "cookies": [],
       "headers": [
         {
           "name": ":path",
-          "value": "/cbox_themes_v3/viarailq12018/images/2b.png?ac=1518191598"
+          "value": "/cbox_themes_v3/viarailq12018/images/2b.png?ac=1518449856"
         },
         {
           "name": "accept-encoding",
@@ -2179,7 +2179,7 @@
         },
         {
           "name": "user-agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         },
         {
           "name": "accept",
@@ -2205,7 +2205,7 @@
       "queryString": [
         {
           "name": "ac",
-          "value": "1518191598"
+          "value": "1518449856"
         }
       ],
       "headersSize": -1,
@@ -2219,11 +2219,11 @@
       "headers": [
         {
           "name": "date",
-          "value": "Fri, 09 Feb 2018 16:19:26 GMT"
+          "value": "Sun, 18 Feb 2018 15:36:44 GMT"
         },
         {
           "name": "via",
-          "value": "1.1 1662dabe99011799e56cae2a87156088.cloudfront.net (CloudFront)"
+          "value": "1.1 8e6252567612ed9c22e94afac0412022.cloudfront.net (CloudFront)"
         },
         {
           "name": "last-modified",
@@ -2263,13 +2263,13 @@
         },
         {
           "name": "x-amz-cf-id",
-          "value": "dkdwCn7a6au-aVDB_vBRC9Ct5Ln02m9eoFYnCw55BobgAYnIXPFGHg=="
+          "value": "aaV6mb5_0tMp3BeNRYIWw72PGXK291jGP7GW2W-ZQy5ca9_BITXE8Q=="
         }
       ],
       "redirectURL": "",
       "headersSize": -1,
       "bodySize": -1,
-      "_transferSize": 4904,
+      "_transferSize": 4906,
       "content": {
         "size": 4560,
         "mimeType": "image/png"
@@ -2277,16 +2277,16 @@
     },
     "cache": {},
     "timings": {
-      "blocked": 4.90800000261515,
+      "blocked": 1.24000000005253,
       "dns": -1,
       "connect": -1,
-      "send": 0.46999996993690996,
-      "wait": 104.23699999228094,
-      "receive": 0.8990000351334686,
+      "send": 0.7760000000871499,
+      "wait": 124.54400000001432,
+      "receive": 0.6939999998395336,
       "ssl": -1
     },
-    "serverIPAddress": "52.84.96.139",
-    "connection": "45",
+    "serverIPAddress": "52.84.96.67",
+    "connection": "38",
     "_initiator": {
       "type": "parser",
       "url": "https://dbb1.contobox.com/v3/preview.php?id=20005&tpl=preview_expanded",
@@ -2296,8 +2296,8 @@
   },
   {
     "pageref": "page_1",
-    "startedDateTime": "2018-02-11T01:59:48.063Z",
-    "time": 727.616999996826,
+    "startedDateTime": "2018-02-23T03:44:48.924Z",
+    "time": 70.61499999986154,
     "request": {
       "method": "GET",
       "url": "https://dbb1.contobox.com/frontend/api/viaRailWeather.js?location=montreal",
@@ -2330,7 +2330,7 @@
         },
         {
           "name": "User-Agent",
-          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.140 Safari/537.36"
+          "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/64.0.3282.167 Safari/537.36"
         }
       ],
       "queryString": [
@@ -2354,7 +2354,7 @@
         },
         {
           "name": "Date",
-          "value": "Sun, 11 Feb 2018 01:59:48 GMT"
+          "value": "Fri, 23 Feb 2018 03:44:48 GMT"
         },
         {
           "name": "Content-Encoding",
@@ -2370,7 +2370,7 @@
         },
         {
           "name": "Set-Cookie",
-          "value": "PHPSESSID=tlfg5nhmjfjss083jif8n48437; path=/"
+          "value": "PHPSESSID=ig1pml3d58co525o7p8vb1une3; path=/"
         },
         {
           "name": "Cache-Control",
@@ -2382,7 +2382,7 @@
         },
         {
           "name": "Content-Length",
-          "value": "202"
+          "value": "200"
         },
         {
           "name": "Expires",
@@ -2391,25 +2391,25 @@
       ],
       "redirectURL": "",
       "headersSize": 382,
-      "bodySize": 202,
-      "_transferSize": 584,
+      "bodySize": 200,
+      "_transferSize": 582,
       "content": {
         "size": 225,
         "mimeType": "text/html",
-        "compression": 23
+        "compression": 25
       }
     },
     "cache": {},
     "timings": {
-      "blocked": 0.20000000949949,
+      "blocked": 0.305000000025757,
       "dns": -1,
       "connect": -1,
-      "send": 0.06399996345862799,
-      "wait": 726.4960000175049,
-      "receive": 0.8570000063630232,
+      "send": 0.06399999983841498,
+      "wait": 69.34700000010713,
+      "receive": 0.8989999998902363,
       "ssl": -1
     },
-    "serverIPAddress": "52.72.144.118",
+    "serverIPAddress": "52.86.43.251",
     "connection": "9",
     "_initiator": {
       "type": "script",
