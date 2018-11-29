@@ -1,0 +1,44 @@
+#main{
+
+    width: 500px;
+    background: #8f3799;
+    height: 810px;
+    background-image: url(background.jpg);
+    margin: 0 auto;
+
+}
+
+#main div.back{
+
+    background-image: url("elk.png");
+    width: 116px;
+    height: 150px;
+    display: inline-block;
+    margin: 25px;
+
+
+}
+
+
+#main div.front{
+
+    background-image: url("backCard.png");
+    width: 116px;
+    height: 150px;
+    display: inline-block;
+    margin: 25px;
+
+}
+/* 
+#main div.back{
+
+    background-image: url("elk.png");
+    width: 116px;
+    height: 150px;
+    display: inline-block;
+    margin: 25px;
+
+
+} */
+
+

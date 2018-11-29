@@ -1,15 +1,15 @@
 function get_contobox_data(){
   var val = $("#add-id").val();
   $.ajax({
-        type: 'POST',
-        url: "http://127.0.0.1:5000/test",
-        data: {'ad_id': val}, //passing some input here
+        type: 'GET',
+        url: "http://localhost:3000/getresults/" + val,
         dataType: "JSON",
         success: function(response){
-           output = response;
-           if (output != ""){
-           $("#tshow").css("display", "block")}
-           console.log(output);
+            alert("HI");
+        //    output = response;
+        //    if (output != ""){
+        //    $("#tshow").css("display", "block")}
+        //    console.log(output);
         }})
 };
 
