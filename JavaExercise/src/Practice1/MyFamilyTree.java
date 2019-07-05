@@ -96,7 +96,7 @@ public class MyFamilyTree {
         test.printFamilyTree();
 
         System.out.println("Do you wan to add spouse y/n");
-        
+
     }
 
 
